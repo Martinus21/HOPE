@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../images/head-bg.gif) repeat-x;
+	font-family: arial;
+	color: #666;
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+}
+
+/*HEADER*/
+header{
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.headerLeft {
+	width: 200px;
+	float: left;
+	margin: 20px 0 0 10px;
+}
+.headerRight {
+	width: 575px;
+	float: right;
+}
+.headerRight ul {
+	list-style: none;
+}
+.headerRight ul li {
+	float: left;
+}
+.headerRight ul li a {
+	text-decoration: none;
+	line-height: 120px;
+	color: #fff;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: block;
+}
+.headerRight ul li a:hover {
+	background-color: #f2191a;
+}
+
+/*SLIDER*/
+
+/*PRODUCT*/
+.product {
+	overflow: hidden;
+	margin-top: 10px;
+	text-align: center;
+}
+.product a:hover {
+	background-color: #ccc;
+}
+.product1 {
+	width: 310px;
+	float: left;
+	margin-right: 10px;
+}
+.product2 {
+	width: 310px;
+	float: right;
+}
+.productTitle {
+	background: #f2191a;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 5px;
+}
+.productTitle h1 {
+	font-size: 20px;
+}
+.productTitle p {
+	font-size: 15px;
+}
+
+/*BANNER*/
+.banner {
+	margin: 30px 0;
+}
+
+/*ARTICLE*/
+article {
+	overflow: hidden;
+}
+article h2 {
+	margin-bottom: 10px;
+}
+/*ARTICLE LEFT*/
+.left {
+	width: 450px;
+	float: left;
+}
+.left a:hover {
+	background-color: #ccc;
+}
+.leftTop {
+	overflow: hidden;
+}
+.leftTop ul {
+	width: 225px;
+	float: left;
+}
+.leftTop ul li {
+	list-style: inside;
+	list-style-image: url(../images/marker2.png);
+	margin-bottom: 10px;
+}
+.leftTop ul li a {
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: grey;
+	position: relative;
+	top: -3px;
+}
+.leftTop ul li a:hover {
+	text-decoration: underline;
+}
+
+/*ARTICLE RIGHT*/
+.right {
+	width: 450px;
+	float: right;
+}
+.program {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.program img {
+	float: left;
+	width: 52px;
+}
+.programItem {
+	float: right;
+	width: 385px;
+}
+.programItem a {
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*FOOTER*/
+footer {
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+	font-size: 12px;
+	height: 70px;
+	margin: 20px 0 50px;
+}
+.footerLeft {
+	width: 200px;
+	float: left;
+	margin-top: 15px;
+}
+.footerRight {
+	width: 575px;
+	float: right;
+}
+.footerRight ul {
+	list-style: none;
+}
+.footerRight ul li {
+	float: left;
+}
+.footerRight ul li a {
+	text-decoration: none;
+	line-height: 70px;
+	padding: 0 20px;
+	color: #f2191a;
+	display: block;
+}
+.footerRight ul li a:hover {
+	text-decoration: underline;
+}
+
+/*GENERAL CLASSES*/
+p {
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.read {
+	text-decoration: none;
+	color: #fff;
+	background: grey;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
